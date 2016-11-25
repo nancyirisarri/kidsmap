@@ -19,6 +19,9 @@ mpl.use('Agg')
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 
+import MapGrid
+import MapTile
+
 def modify_images(images_dir, images_dir_mod):
     """Modify images to plot."""
     # Rename directory containing newly downloaded images by replacing
